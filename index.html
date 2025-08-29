@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous" />
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&family=Ledger&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mozilla+Headline:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&family=Ledger&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mozilla+Headline:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <style>
+    #footer {
+  color: white;
+  text-align: center;
+  background: linear-gradient(270deg, #52357B, #674df9, #1dd1a1, #48dbfb);
+  background-size: 400% 400%;
+  animation: gradientBG 10s ease infinite;
+  width: 100%;
+}
+
+#footer a {
+  color: white; /* ensures links are visible on gradient */
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+    .contact-toggle{
+      cursor: pointer;
+      font-weight: bold;
+      color: ;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar / Header -->
+  <section id="title">
+    <div class="container">
+      <header class="header d-flex flex-wrap justify-content-left pt-3 mb-0">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <img class="icon" src="./Profile img/IMG-20250728-WA0003.jpg" alt="profile" width="50" height="50"
+            style="border-radius: 50%" />
+          <span class="fs-4">Ikemba</span>
+        </a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="#" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#About" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Experience" class="nav-link">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" target="_blank" class="nav-link">Contact Me</a>
+          </li>
+        </ul>
+      </header>
+    </div>
+  </section>
+
+  <!-- Intro Section with Background Image -->
+  <section id="intro">
+    <div class="container text-center">
+      <h1 class="display-4 fw-bold">Osuagwu Ikemba</h1>
+      <p class="lead" style="font-family:  " Roboto", sans-serif;">Aspiring Front-End Web Developer</p>
+      <p class="lead" style="font-family:  " Roboto", sans-serif;;">
+        Passionate about creating beautiful, functional, responsive, and
+        user-friendly websites.
+      </p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="About">
+    <div class="container wall col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./Profile img/IMG-20250728-WA0003.jpg" class="photo d-block mx-lg-auto img-fluid"
+            alt="profile photo" width="700" height="300" loading="lazy" />
+        </div>
+        <div class="col-lg-6">
+          <h2 class="display-5 fw-bold lh-1 mb-3" style="font-family: " Mozilla Headline", sans-serif;;">About Me</h2>
+          <p class="lead">
+            I am an aspiring Front-end Web Developer passionate about creating
+            clean, responsive, and user-friendly websites. My dream aspiration
+            is to grow into a professional Frontend Developer who can design,
+            develop, and deploy scalable applications while collaborating with
+            cross-functional teams to create impactful digital solutions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Experience">
+    <div class="container px-4 py-5" id="Experience">
+      <h2 class="display-5 fw-bold lh-1 mb-3">Experience</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-md-2">
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img src="./SVGs/laptop.svg" alt="laptop" height="30px">
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis" style="font-family: " Roboto", sans-serif;;">Junior Front-End Web
+              Developer</h3>
+            <h3>(Aug 2025 - Present)</h3>
+            <p>
+            <ul>
+              <li>Designed and developed responsive website using HTML, CSS and Bootstrap, ensuring cross-brower
+                compatibility and mobile-first layouts.</li>
+              <li>Built and deployed portfolio projects including landing page, personal portfolio site,and hosted on
+                Github.</li>
+              <li>Collaborated on small projects, creating mordern and user-friendly interface tailored to client
+                requirements.</li>
+              <li>Gained hands-on experience with VS code (Visual Studio Code), Github and advanced Chrome usage.</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img src="./SVGs/cone-striped.svg" alt="cone" height="30px" />
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis" style="font-family: " Roboto", sans-serif;;>Amacia Resource</h3>
+            <h3>(Oct 2023) - (April 2024)</h3>
+            <p>
+            <ul class="align-items-start" ;" padding: o; margin: o;">
+              <li>On-site supervision of a hospital construction.</li>
+              <li>Ensured all foremen worked in the right PPE and used the right tool, the right way for the job.</li>
+              <li>Carried out daily construction in line with the accurate structural plan.</li>
+              <li>Documented all daily activities that were carried out on site for accurate reporting.</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img src="./SVGs/cone-striped.svg" alt="cone" height="30px" />
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis" style="font-family: " Roboto", sans-serif;;>Landed Property
+              (Construction Manager)</h3>
+            <h3>(Sep 2022) - (Mar 2023)</h3>
+            <p>
+            <ul class="align-items-start" ;" padding: o; margin: o;">
+              <li>Oversaw procurement and budgeting of materials for construction projects.</li>
+              <li>Planned and scheduled on-site activities to ensure efficient project execution.</li>
+              <li>Documented all activities carried out on site and gave a detailed report on request.</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img src="./SVGs/tools.svg" alt="tools" height="30px" />
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis" style="font-family: " Roboto", sans-serif;;;">ExproTech Nigeria Limited
+              (Intern)</h3>
+            <h3>(Jan 2022) - (July 2022)</h3>
+            <p>
+            <ul class="align-items-start" ;" padding: o; margin: o;">
+              <li>Assisted in maintaining well test equipment and performed ultrasonic testing.</li>
+              <li>Participated in pressure testing of well test equipment.</li>
+              <li>Documented and prepared equipment for load out. Secured all important document in the job pack while
+                on the yard.</li>
+              <li>Carefully filled out the TRA-CARD (risk assessment card) before commencing a job in order to be
+                enlightened about the risks associated with the particular job. </li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Skills">
+    <section id="Skills">
+      <div class="container px-4 py-5">
+        <h2 class="display-5 fw-bold lh-1 mb-3">Skills</h2>
+
+        <!-- 2 columns on md+ screens, 1 column on mobile -->
+        <div class="row g-4 py-4 row-cols-1 row-cols-md-2">
+          <!-- Card 1 -->
+          <div class="col">
+            <div class="card card-cover skill-1 h-100 overflow-hidden rounded-4 shadow-lg">
+              <div class="skill-content d-flex flex-column h-100 p-5 pb-4 text-white">
+                <h3 class="mb-3 fs-2 fw-bold" style="font-family: " Roboto", sans-serif;>Front-End Development</h3>
+                <p class="mb-3 fs-5">HTML, CSS</p>
+                <p class="mb-0 fs-5">Responsive Design, Bootstrap</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col">
+            <div class="card card-cover skill-2 h-100 overflow-hidden rounded-4 shadow-lg">
+              <div class="skill-content d-flex flex-column h-100 p-5 pb-4 text-white">
+                <h3 class="mb-3 fs-2 fw-bold" style="font-family: " Roboto", sans-serif;;;>Tools & Version Control</h3>
+                <p class="mb-3 fs-5">Git, GitHub</p>
+                <p class="mb-0 fs-5">VS Code, DevTools</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col">
+            <div class="card card-cover skill-3 h-100 overflow-hidden rounded-4 shadow-lg">
+              <div class="skill-content d-flex flex-column h-100 p-5 pb-4 text-white">
+                <h3 class="mb-3 fs-2 fw-bold" style="font-family: " Roboto", sans-serif;;;>UI/UX & Design</h3>
+                <p class="mb-0 fs-5">Wireframing & Prototyping</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col">
+            <div class="card card-cover skill-4 h-100 overflow-hidden rounded-4 shadow-lg">
+              <div class="skill-content d-flex flex-column h-100 p-5 pb-4 text-white">
+                <h3 class="mb-3 fs-2 fw-bold" style="font-family: " Roboto", sans-serif;;;>Soft Skills</h3>
+                <p class="mb-3 fs-5">Problem-solving & Debugging</p>
+                <p class="mb-0 fs-5">Communication & Teamwork</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Projects">
+      <div class="container px-4 py-5" id="featured-3">
+        <h2 class="display-5 fw-bold lh-1 mb-3">Projects</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./SVGs/laptop.svg" alt="laptop" height="30px"/>
+            </div>
+            <h3 class="fs-2 text-body-emphasis" style="font-family: " Roboto", sans-serif;;>Web Design Agency Project</h3>
+            <p>A modern website created for a fictional web design agency to showcase services, portfolio,and contact
+              information. The project demonstrates my ability to build clean, professional layouts that highlights
+              brand identity.</p>
+            <P>Technologies: HTML, CSS.</P>
+            <a href="https://iyke62.github.io/Web-Design-Agency-Project/" target="_blank" class="icon-link">
+              View Here
+              <svg class="bi" aria-hidden="true">
+                <use xlink:href="#chevron-right"></use>
+              </svg> </a>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./SVGs/box-seam.svg" alt="box" height="30px">
+            </div>
+            <h3 class="fs-2 text-body-emphasis" style="font-family: " Roboto", sans-serif;;>Responsive Tindog Website</h3>
+            <p>A responsive landing page inspired by the idea of a Tinder-style app for dogs. The goal was to practice
+              UI design, responsiveness, and fun branding.</p>
+            <p>Technologies: HTML, CSS, Bootstrap.</p>
+            <a href="https://iyke62.github.io/Tindog-Project/" target="_blank" class="icon-link">
+              view Here
+              <svg class="bi" aria-hidden="true">
+                <use xlink:href="#chevron-right"></use>
+              </svg> </a>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./SVGs/card-list.svg" alt="box" height="30px">
+            </div>
+            <h3 class="fs-2 text-body-emphasis" style="font-family: " Roboto", sans-serif;;>Flexbox Pricing Table</h3>
+            <p>A pricing table component designed for product websites. The project showcases my skills in creating
+              modular UI component that are re-useable across projects.</p> 
+            <P>Technologies: HTML, CSS (Flexbox).</P>
+              <a href="https://iyke62.github.io/Flexbox-Price-list/" target="_blank" class="icon-link">
+              View Here
+              <svg class="bi" aria-hidden="true">
+                <use xlink:href="#chevron-right"></use>
+              </svg> </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center pb-1 mb-1">
+        <li class="nav-item"><a href="#" class="nav-link px-2">Home</a></li>
+        <li class="nav-item"><a href="#About" class="nav-link px-2">About Me</a></li>
+        <li class="nav-item"><a href="#Experience" class="nav-link px-2">Experience</a></li>
+        <li class="nav-item"><a href="#Skills" class="nav-link px-2">Skills</a></li>
+        <li class="nav-item"><a href="#Projects" class="nav-link px-2">Projects</a></li>
+        <li class="nav-item"><a href="contact.html" target="_blank" class="nav-link px-2">Contact Me</a></li>
+      </ul>
+      <p class="text-center">© 2025 Ikemba Osuagwu</p>
+    </footer>
+  </div>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
